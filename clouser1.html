@@ -1,0 +1,23 @@
+<html>
+<title> clouser </title>
+<head>
+
+</head>
+<body>
+<script>
+function show(){
+var j="J is a local variable of outer funtion";
+document.write(j+ "<br>");
+function innerfun(){
+var k="K is a local variable of inner funtion";
+document.write(k+ "<br>");
+document.write(j+ "<br>");
+}
+innerfun();
+document.write(k+ "<br>");
+}
+show();
+</script>
+</body>
+</html>
+
